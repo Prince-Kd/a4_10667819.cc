@@ -12,8 +12,8 @@ int main(void)
 {
     int num1, num2, result;
     cout << "Enter two numbers: ";
-    cin >> num1 >>endl;
-    cin >> num2 >>endl;
+    cin >> num1;
+    cin >> num2;
     result = gcd(num1, num2);
     if (gcd)
         cout << "\nThe GCD of " << num1 << " and " << num2 << " is: " << result
